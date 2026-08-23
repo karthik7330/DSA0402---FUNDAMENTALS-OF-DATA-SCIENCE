@@ -1,0 +1,11 @@
+Store_ID,Daily_Sales,Customers,Discount_Percentage,Product_Category,Profit
+S001,45000,180,10,Electronics,9000
+S002,52000,210,25,Clothing,9500
+S003,48000,195,15,Grocery,8700
+S004,61000,240,30,Electronics,11200
+S005,55000,225,20,Clothing,10100
+S006,47000,185,12,Grocery,8600
+S007,64000,260,35,Electronics,11800
+S008,50000,205,18,Clothing,9200
+S009,59000,235,28,Grocery,10800
+S010,46000,190,10,Electronics,8500

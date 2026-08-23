@@ -1,0 +1,11 @@
+Customer_ID,Income,Credit_Score,Loan_Amount,Repayment_History,Employment_Status,Loan_Status
+C001,55000,780,250000,Good,Salaried,Approved
+C002,42000,650,180000,Average,Self-Employed,Rejected
+C003,70000,810,300000,Good,Salaried,Approved
+C004,38000,620,150000,Poor,Unemployed,Rejected
+C005,60000,790,280000,Good,Salaried,Approved
+C006,45000,670,200000,Average,Self-Employed,Rejected
+C007,75000,830,350000,Excellent,Salaried,Approved
+C008,40000,640,170000,Poor,Contract,Rejected
+C009,68000,800,320000,Good,Salaried,Approved
+C010,47000,690,210000,Average,Self-Employed,Rejected

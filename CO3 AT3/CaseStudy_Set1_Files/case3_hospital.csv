@@ -1,0 +1,11 @@
+Patient_ID,Age,Treatment_Cost,Hospital_Days,Recovery_Time,Satisfaction,Treatment
+P001,32,25000,6,10,4.5,New
+P002,45,32000,8,14,4.2,Existing
+P003,29,22000,5,9,4.8,New
+P004,50,35000,9,15,4.0,Existing
+P005,41,28000,7,11,4.6,New
+P006,36,30000,8,13,4.3,Existing
+P007,31,24000,5,8,4.9,New
+P008,47,34000,9,16,3.9,Existing
+P009,39,26000,6,10,4.7,New
+P010,44,31000,8,14,4.1,Existing

@@ -1,0 +1,11 @@
+Passenger_ID,Flight_Delay,Check_In_Time,Baggage_Handling,In_Flight_Service,Passenger_Satisfaction
+P001,15,12,5,5,4.9
+P002,45,18,4,4,4.0
+P003,20,10,5,5,4.8
+P004,60,22,3,4,3.7
+P005,10,9,5,5,5.0
+P006,35,16,4,4,4.2
+P007,18,11,5,5,4.9
+P008,55,20,3,3,3.8
+P009,25,13,4,5,4.7
+P010,12,10,5,5,5.0

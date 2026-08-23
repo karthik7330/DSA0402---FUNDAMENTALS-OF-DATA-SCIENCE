@@ -1,0 +1,31 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df=pd.read_csv("problem4_traffic.csv")
+print("Mean")
+print(df.mean(numeric_only=True))
+print("\nVariance")
+print(df.var(numeric_only=True))
+print("\nStd Dev")
+print(df.std(numeric_only=True))
+print("\nCovariance Matrix")
+print(df[["Traffic_Volume","Rainfall","Average_Speed","Accident_Count"]].cov())
+print("\nCorrelation Matrix")
+print(df[["Traffic_Volume","Rainfall","Average_Speed","Accident_Count"]].corr())
+
+plt.scatter(df["Traffic_Volume"],df["Accident_Count"])
+plt.xlabel("Traffic Volume")
+plt.ylabel("Accident Count")
+plt.title("Traffic Volume vs Accident Count")
+plt.show()
+
+plt.scatter(df["Rainfall"],df["Accident_Count"])
+plt.xlabel("Rainfall")
+plt.ylabel("Accident Count")
+plt.title("Rainfall vs Accident Count")
+plt.show()
+
+plt.scatter(df["Average_Speed"],df["Accident_Count"])
+plt.xlabel("Average Speed")
+plt.ylabel("Accident Count")
+plt.title("Average Speed vs Accident Count")
+plt.show()

@@ -1,0 +1,11 @@
+Customer_ID,Purchase_Amount,Orders,Browsing_Time,Rating,Membership
+C001,1200,3,25,4.5,Premium
+C002,850,2,18,4.2,Regular
+C003,1500,4,30,4.8,Premium
+C004,600,1,12,3.9,Regular
+C005,1800,5,35,4.9,Premium
+C006,700,2,15,4.0,Regular
+C007,2100,6,40,5.0,Premium
+C008,950,3,20,4.3,Regular
+C009,1600,4,32,4.7,Premium
+C010,750,2,16,4.1,Regular
