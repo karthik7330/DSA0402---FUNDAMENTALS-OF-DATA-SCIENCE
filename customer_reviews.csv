@@ -1,6 +1,16 @@
-Review ID,Review
-1,This product is very good and useful
-2,The product is good and easy to use
-3,I like this product because it is useful
-4,This product is easy to use and good
-5,The product quality is very good
+Review ID,Product,Rating
+1,Product A,5
+2,Product A,4
+3,Product A,5
+4,Product A,4
+5,Product A,3
+6,Product A,5
+7,Product A,4
+8,Product A,5
+9,Product A,4
+10,Product A,5
+11,Product A,4
+12,Product A,5
+13,Product A,3
+14,Product A,4
+15,Product A,5
