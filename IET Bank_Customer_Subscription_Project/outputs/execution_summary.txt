@@ -1,0 +1,24 @@
+BANK CUSTOMER SUBSCRIPTION PROJECT – EXECUTION SUMMARY
+
+Rows before cleaning: 45211
+Duplicate rows removed: 0
+Rows after cleaning: 45211
+Missing values after cleaning: 0
+Estimated subscription rate: 0.1170
+95% CI for subscription rate: (0.1140, 0.1199)
+
+MODEL COMPARISON
+              model  accuracy  precision   recall  f1_score  roc_auc
+      Decision Tree  0.828597   0.356810 0.579395  0.441643 0.779230
+Logistic Regression  0.754949   0.266344 0.623819  0.373303 0.772229
+                kNN  0.892624   0.651568 0.176749  0.278067 0.736904
+
+Selected best model: Decision Tree
+Best-model F1: 0.4416
+Best-model recall: 0.5794
+Best-model ROC-AUC: 0.7792
+
+Selected K for K-means: 2
+
+Important design choice: duration is retained for EDA but excluded from the
+pre-campaign predictive model because it is only known after a call.

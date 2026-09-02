@@ -1,0 +1,2 @@
+sample_size,subscribers,estimated_subscription_rate,confidence_level,ci_lower,ci_upper
+45211,5289,0.11698480458295547,0.95,0.11402219208873457,0.11994741707717638
