@@ -1,0 +1,325 @@
+﻿FUNDAMENTALS OF DATA SCIENCE – LABORATORY EXPERIMENTS 
+
+1. Scenario: You are working on a project that involves analyzing student performance data for a 
+class of 32 students. The data is stored in a NumPy array named student_scores, where each row 
+represents a student and each column represents a different subject. The subjects are arranged in the  
+following order: Math, Science, English, and History. Your task is to calculate the average score for 
+each subject and identify the subject with the highest average score. 
+Question: How would you use NumPy arrays to calculate the average score for each subject and 
+determine the subject with the highest average score? Assume 4x4 matrix that stores marks of each 
+student in given order. 
+2. Scenario: You are a data analyst working for a company that sells products online. You have been 
+tasked with analyzing the sales data for the past month. The data is stored in a NumPy array. 
+Question: How would you find the average price of all the products sold in the past month? Assume 
+3x3 matrix with each row representing the sales for a different product 
+3. Scenario: You are working on a project that involves analyzing a dataset containing information 
+about houses in a neighborhood. The dataset is stored in a CSV file, and you have imported it into a 
+NumPy array named house_data. Each row of the array represents a house, and the columns contain 
+various features such as the number of bedrooms, square footage, and sale price. 
+Question: Using NumPy arrays and operations, how would you find the average sale price of houses 
+with more than four bedrooms in the neighborhood? 
+4. Scenario: You are working on a project that involves analyzing the sales performance of a company 
+over the past four quarters. The quarterly sales data is stored in a NumPy array named sales_data, 
+where each element represents the sales amount for a specific quarter. Your task is to calculate the 
+total sales for the year and determine the percentage increase in sales from the first quarter to the fourth 
+quarter. 
+Question: Using NumPy arrays and arithmetic operations calculate the total sales for the year and 
+determine the percentage increase in sales from the first quarter to the fourth quarter? 
+5. Scenario: You are a data analyst working for a car manufacturing company. As part of your analysis, 
+you have a dataset containing information about the fuel efficiency of different car models. The dataset 
+is stored in a NumPy array named fuel_efficiency, where each element represents the fuel efficiency 
+(in miles per gallon) of a specific car model. Your task is to calculate the average fuel efficiency and 
+determine the percentage improvement in fuel efficiency between two car models. 
+Question: How would you use NumPy arrays and arithmetic operations to calculate the average fuel 
+efficiency and determine the percentage improvement in fuel efficiency between two car models? 
+
+
+
+6. Scenario: You are a cashier at a grocery store and need to calculate the total cost of a customer's 
+purchase, including applicable discounts and taxes. You have the item prices and quantities in separate 
+lists, and the discount and tax rates are given as percentages. Your task is to calculate the total cost for 
+the customer. 
+Question: Use arithmetic operations to calculate the total cost of a customer's purchase, including 
+discounts and taxes, given the item prices, quantities, discount rate, and tax rate? 
+7. Scenario: You are working as a data analyst for an e-commerce company. You have been given a 
+dataset containing information about customer orders, stored in a Pandas DataFrame named 
+order_data. The DataFrame has columns for customer ID, order date, product name, and order quantity. 
+Your task is to analyze the data and answer specific questions about the orders. 
+Question: Using Pandas DataFrame operations, how would you find the following information from 
+the order_data DataFrame: 
+1. The total number of orders made by each customer. 
+2. The average order quantity for each product. 
+3. The earliest and latest order dates in the dataset. 
+8. Scenario: You are a data scientist working for a company that sells products online. You have been 
+tasked with analyzing the sales data for the past month. The data is stored in a Pandas data frame. 
+Question: How would you find the top 5 products that have been sold the most in the past month? 
+9. Scenario: You work for a real estate agency and have been given a dataset containing information 
+about properties for sale. The dataset is stored in a Pandas DataFrame named property_data. The 
+DataFrame has columns for property ID, location, number of bedrooms, area in square feet, and listing 
+price. Your task is to analyze the data and answer specific questions about the properties. 
+Question: Using Pandas DataFrame operations, how would you find the following information from 
+the property_data DataFrame: 
+1. The average listing price of properties in each location. 
+2. The number of properties with more than four bedrooms. 
+3. The property with the largest area. 
+10. Scenario: You are working on a data visualization project and need to create basic plots using 
+Matplotlib. You have a dataset containing the monthly sales data for a company, including the month 
+and corresponding sales values. Your task is to develop a Python program that generates line plots and 
+bar plots to visualize the sales data. 
+Question: 
+1. How would you develop a Python program to create a line plot of the monthly sales data? 
+2: How would you develop a Python program to create a bar plot of the monthly sales data? 
+11. Scenario : You are a data scientist working for a company that sells products online. You have 
+been tasked with creating a simple plot to show the sales of a product over time. 
+
+
+
+Question: 
+1. Write code to create a simple line plot in Python using Matplotlib to predict sales happened in a 
+month? 
+2. Write code to create a scatter plot in Python using Matplotlib to predict sales happened in a month? 
+3. Develop a Python program to create a bar plot of the monthly sales data. 
+12. Scenario: You are working on a data analysis project that involves analyzing the monthly 
+temperature and rainfall data for a city. You have a dataset containing the monthly temperature and 
+rainfall values for each month of a year. Your task is to develop a Python program that generates line 
+plots and scatter plots to visualize the temperature and rainfall data. 
+Question: 
+1. Develop a Python program to create a line plot of the monthly temperature data. 
+2: Develop a Python program to create a scatter plot of the monthly rainfall data. 
+13. Scenario: You are a data analyst working for a finance company. Your team is interested in 
+analyzing the variability of stock prices for a particular company over a certain period. The company's 
+stock data includes the closing prices for each trading day of the specified period. 
+Question: Your task is to build a Python program that reads the stock data from a CSV file, calculates 
+the variability of stock prices, and provides insights into the stock's price movements. 
+14. Scenario: You are a data scientist working for an educational institution, and you want to explore 
+the correlation between students' study time and their exam scores. You have collected data from a 
+group of students, noting their study time in hours and their corresponding scores in an exam. 
+Question: Identify any potential correlation between study time and exam scores and explore various 
+plotting functions to visualize this relationship effectively. 
+15. Scenario: You work for a weather data analysis company, and your team is responsible for 
+developing a program to calculate and analyze variability in temperature data for different cities. 
+Question: Write a python program will take in a dataset containing daily temperature readings for each 
+city over a year and perform the following tasks: 
+1. Calculate the mean temperature for each city. 
+2. Calculate the standard deviation of temperature for each city. 
+3. Determine the city with the highest temperature range (difference between the highest and lowest 
+temperatures). 
+4. Find the city with the most consistent temperature (the lowest standard deviation). 
+16. Scenario: You are working on a text analysis project and need to determine the frequency 
+distribution of words in a given text document. You have a text document named "sample_text.txt" 
+containing a paragraph of text. Your task is to develop a Python program that reads the text document, 
+processes the text, and generates a frequency distribution of the words. 
+
+
+
+Question: How would you develop a Python program to calculate the frequency distribution of words 
+in a text document? 
+17. Scenario: You are a data analyst working for a company that sells products online. You have been 
+tasked with analyzing the sales data for the past month. The data is stored in a Pandas data frame. 
+Question: Develop a code in python to find the frequency distribution of the ages of the customers who 
+have made a purchase in the past month. 
+18. Scenario: You are a data analyst working for a social media platform. As part of your analysis, 
+you have a dataset containing user interaction data, including the number of likes received by each 
+post. Your task is to develop a Python program that calculates the frequency distribution of likes among 
+the posts. 
+Question: Develop a Python program to calculate the frequency distribution of likes among the posts? 
+19. Scenario: You are working on a project that involves analyzing customer reviews for a product. 
+You have a dataset containing customer reviews, and your task is to develop a Python program that 
+calculates the frequency distribution of words in the reviews. 
+Question: Develop a Python program to calculate the frequency distribution of words in the customer 
+reviews dataset? 
+20. Scenario: You are a data analyst working for a marketing research company. Your team has 
+collected a large dataset containing customer feedback from various social media platforms. The 
+dataset consists of thousands of text entries, and your task is to develop a Python program to analyze 
+the frequency distribution of words in this dataset. Your program should be able to perform the 
+following tasks: 
+
+• Load the dataset from a CSV file (data.csv) containing a single column named "feedback" with 
+each row representing a customer comment. 
+
+• Preprocess the text data by removing punctuation, converting all text to lowercase, and 
+eliminating any stop words (common words like "the," "and," "is," etc. that don't carry 
+significant meaning). 
+
+• Calculate the frequency distribution of words in the preprocessed dataset. 
+• Display the top N most frequent words and their corresponding frequencies, where N is 
+
+provided as user input. 
+• Plot a bar graph to visualize the top N most frequent words and their frequencies. 
+
+Question: Create a Python program that fulfills these requirements and helps your team gain insights 
+from the customer feedback data. 
+21.Scenario: Suppose a hospital tested the age and body fat data for 18 randomly selected adults with 
+the following result. 
+
+ 
+Question: 
+
+• Calculate the mean, median and standard deviation of age and %fat using Pandas. 
+
+
+
+• Draw the boxplots for age and %fat. 
+• Draw a scatter plot and a q-q plot based on these two variables 
+
+22. Scenario: 
+You are a medical researcher investigating the effectiveness of a new drug in reducing blood pressure. 
+You conduct a clinical trial with a sample of 50 patients who were randomly assigned to receive either 
+the new drug or a placebo. After measuring their blood pressure levels at the end of the trial, you obtain 
+the data for both groups. Now, you want to determine the confidence intervals for the mean reduction 
+in blood pressure for both the drug and placebo groups. 
+Question: 
+"What is the 95% confidence interval for the mean reduction in blood pressure for patients who 
+received the new drug? Also, what is the 95% confidence interval for the mean reduction in blood 
+pressure for patients who received the placebo? 
+23. Scenario: You are a data scientist working for an e-commerce company. The marketing team has 
+conducted an A/B test to evaluate the effectiveness of two different website designs (A and B) in terms 
+of conversion rate. They randomly divided the website visitors into two groups, with one group 
+experiencing design A and the other experiencing design B. After a week of data collection, you now 
+have the conversion rate data for both groups. You want to determine whether there is a statistically 
+significant difference in the mean conversion rates between the two website designs. 
+Question: 
+"Based on the data collected from the A/B test, is there a statistically significant difference in the mean 
+conversion rates between website design A and website design B?" 
+24.Scenario:You are a scientist conducting research on rare elements found in a specific region. Your 
+goal is to estimate the average concentration of a rare element in the region using a random sample of 
+measurements. You will use the NumPy library to perform point estimation and calculate confidence 
+intervals for the population mean.The rare element concentration data is stored in a CSV file named 
+"rare_elements.csv," where each row contains a single measurement of the concentration. 
+Question: 
+write a Python program that allows the user to input the sample size, confidence level, and desired 
+level of precision. 
+25.Scenario: Imagine you are an analyst for a popular online shopping website. Your task is to analyze 
+customer reviews and provide insights on the average rating and customer satisfaction level for a 
+specific product category. 
+Question: 
+
+• You will use the pandas library to calculate confidence intervals to estimate the true population 
+mean rating. 
+
+• You have been provided with a CSV file named "customer_reviews.csv," which contains 
+customer ratings for products in the chosen category. 
+
+26.Scenario: You are a researcher working in a medical lab, investigating the effectiveness of a new 
+treatment for a specific disease. You have collected data from a clinical trial with two groups: a control 
+
+
+
+group receiving a placebo, and a treatment group receiving the new drug.Your goal is to analyze the 
+data using hypothesis testing and calculate the p-value to determine if the new treatment has a 
+statistically significant effect compared to the placebo. You will use the matplotlib library to visualize 
+the data and the p-value. 
+27. Scenario: You are a data analyst working for a sports analytics company. The company has 
+collected data on various soccer players, including their names, ages, positions, number of goals 
+scored, and weekly salaries. Create dataset on your own and store in a CSV file. 
+Question: Develop a Python program to read the data from the CSV file into a pandas data frame, 
+to find the top 5 players with the highest number of goals scored and the top 5 players with the 
+highest salaries. Also calculate the average age of players and display the names of players who are 
+above the average age and visualize the distribution of players based on their positions using a bar 
+chart. 
+28.Scenario: Classification and Regression Trees (CART) for Car Price Prediction 
+You are working for a car dealership, and you want to predict the price of used cars based on various 
+features such as the car's mileage, age, brand, and engine type. You have collected a dataset of used 
+cars with their respective prices. 
+Write a Python program that loads the car dataset and allows the user to input the features of a new car 
+they want to sell. The program should use the Classification and Regression Trees (CART) algorithm 
+from scikit-learn to predict the price of the new car based on the input features. The CART algorithm 
+will create a tree-based model that will split the data into subsets based on the chosen features and their 
+values, leading to a decision path that eventually predicts the price of the car. The program should 
+output the predicted price and display the decision path (the sequence of conditions leading to the 
+prediction) for the new car. 
+29.Scenario: Decision Tree for Iris Flower Classification 
+You are analyzing the famous Iris flower dataset to classify iris flowers into three species based on 
+their sepal and petal dimensions. You want to use a Decision Tree classifier to accomplish this task. 
+Write a Python program that loads the Iris dataset from scikit-learn, and allows the user to input the 
+sepal length, sepal width, petal length, and petal width of a new flower. The program should then use 
+the Decision Tree classifier to predict the species of the new flower. 
+30.Scenario: K-Nearest Neighbors (KNN) Classifier 
+You are working on a classification problem to predict whether a patient has a certain medical 
+condition or not based on their symptoms. You have collected a dataset of patients with labelled data 
+(0 for no condition, 1 for the condition) and various symptom features. 
+Write a Python program that allows the user to input the features of a new patient and the value of 
+k(number of neighbors). The program should use the KNN classifier from the scikit-learn library to 
+predict whether the patient has the medical condition or not based on the input features. 
+31. Scenario: Suppose you are working as a data scientist for a medical research organization. Your 
+team has collected data on patients with a certain medical condition and their treatment outcomes. The 
+dataset includes various features such as age, gender, blood pressure, cholesterol levels, and whether 
+the patient responded positively ("Good") or negatively ("Bad") to the treatment. The organization 
+wants to use this model to identify potential candidates who are likely to respond positively to the 
+treatment and improve their medical approach. 
+
+
+
+Question: Your task is to build a classification model using the KNN algorithm to predict the treatment 
+outcome ("Good" or "Bad") for new patients based on their features. Evaluate the model's performance 
+using accuracy, precision, recall, and F1-score.Make predictions on the test set and display the results. 
+32.Scenario: Linear Regression for Housing Price Prediction 
+You are a real estate analyst trying to predict housing prices based on various features of the houses, 
+such as area, number of bedrooms, and location. You have collected a dataset of houses with their 
+respective prices. 
+Write a Python program that allows the user to input the features (area, number of bedrooms, etc.) of 
+a new house. The program should use linear regression from scikit-learn to predict the price of the new 
+house based on the input features. 
+33. Scenario: You work as a data scientist for a real estate company. The company has collected data 
+on various houses, including features such as the size of the house, number of bedrooms, location, and 
+other relevant attributes. The marketing team wants to build a predictive model to estimate the price 
+of houses based on their features. They believe that linear regression modelling can be an effective 
+approach for this task. 
+Question:Your task is write a Python program to perform bivariate analysis and build a linear 
+regression model to predict house prices based on a selected feature (e.g., house size) from the dataset. 
+Additionally, you need to evaluate the model's performance to ensure its accuracy and reliability. 
+34. Scenario: You work as a data scientist for an automobile company that sells various car models. 
+The company has collected data on different car attributes, such as engine size, horsepower, fuel 
+efficiency, and more, along with their corresponding prices. The marketing team wants to build a 
+predictive model to estimate the price of cars based on their features. 
+Question: Your task is write a Python program that perform linear regression modeling to predict car 
+prices based on a selected set of features from the dataset. Additionally, you need to evaluate the 
+model's performance and provide insights to the marketing team to understand the most influential 
+factors affecting car prices. 
+35.Scenario: Evaluation Metrics for Model Performance 
+You have trained a machine learning model on a dataset, and now you want to evaluate its performance 
+using various metrics. Write a Python program that loads a dataset and trained model from scikit-learn. 
+The program should ask the user to input the names of the features and the target variable they want to 
+use for evaluation. The program should then calculate and display common evaluation metrics such as 
+accuracy, precision, recall, and F1-score for the model's predictions on the test data. 
+36.Scenario: Logistic Regression for Customer Churn Prediction 
+You are working for a telecommunications company, and you want to predict whether a customer will 
+churn (leave the company) based on their usage patterns and demographic data. You have collected a 
+dataset of past customers with their churn status (0 for not churned, 1 for churned) and various features. 
+Write a Python program that allows the user to input the features (e.g., usage minutes, contract 
+duration) of a new customer. The program should use logistic regression from scikit-learn to predict 
+whether the new customer will churn or not based on the input features. 
+
+
+
+37.Scenario: K-Means Clustering for Customer Segmentation 
+You are working for an e-commerce company and want to segment your customers into distinct groups 
+based on their purchasing behavior. You have collected a dataset of customer data with various 
+shopping-related features. 
+Write a Python program that allows the user to input the shopping-related features of a new customer. 
+The program should use K-Means clustering from scikit-learn to assign the new customer to one of the 
+existing segments based on the input features. 
+38. Scenario: You work as a data scientist for an e-commerce company that sells a wide range of 
+products online. The company collects vast amounts of data about its customers, including their 
+purchase history, browsing behavior, demographics, and more. The marketing team wants to 
+understand their customer base better and improve their targeted marketing strategies. They have asked 
+you to perform customer segmentation using clustering techniques to identify distinct groups of 
+customers with similar characteristics. 
+Question: Your task is to use Python and clustering algorithms to segment the customers into different 
+groups based on their behavior and characteristics. The marketing team will use these segments to 
+tailor their marketing campaigns and promotions effectively. 
+39. Scenario: You work as a data scientist for a retail company that operates multiple stores. The 
+company is interested in segmenting its customers based on their purchasing behavior to better 
+understand their preferences and tailor marketing strategies accordingly. To achieve this, your team 
+has collected transaction data from different stores, which includes customer IDs, the total amount 
+spent in each transaction, and the frequency of visits. 
+Question: Your task is to build a clustering model using the K-Means algorithm to group customers 
+into distinct segments based on their spending patterns. 
+40. Scenario: You work as a data scientist for a marketing agency, and one of your clients is a large 
+e-commerce company. The company wants to understand the purchasing behavior of its customers and 
+segment them into different groups based on their buying patterns. The e-commerce company has 
+provided you with transaction data, including customer IDs, the total amount spent in each transaction, 
+and the number of items purchased. 
+Question: Build a clustering model using the K-Means algorithm to group customers based on their 
+spending and purchase behavior and visualize the clusters using scatter plots or other appropriate 
+visualizations to gain insights into customer distribution and distinguish different segments.
